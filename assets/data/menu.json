@@ -1,0 +1,85 @@
+[{
+        "id": 1,
+        "slika": {
+            "src": "assets/images/cappuccino.jpg",
+            "alt": "Cappuccino"
+        },
+        "naziv": {
+            "id": 1,
+            "ime": "Cappuccino"
+        },
+        "cena": "$4.89",
+        "tekst": "with truffles & hollandaise"
+
+    },
+    {
+        "id": 2,
+        "slika": {
+            "src": "assets/images/frappucino.jpg",
+            "alt": "Frappuccino"
+        },
+        "naziv": {
+            "id": 2,
+            "ime": "Frappuccino"
+        },
+        "cena": "$1.25",
+        "tekst": "with vegetables and prosutto"
+
+    },
+    {
+        "id": 3,
+        "slika": {
+            "src": "assets/images/caramellatto.jpg",
+            "alt": "Caramellatto"
+        },
+        "naziv": {
+            "id": 3,
+            "ime": "Caramellato"
+        },
+        "cena": "$8.45",
+        "tekst": "with tema artichoke & celeriac with caper butter"
+
+    },
+    {
+        "id": 4,
+        "slika": {
+            "src": "assets/images/tallcoffee.jpg",
+            "alt": "Tall coffee"
+        },
+        "naziv": {
+            "id": 4,
+            "ime": "Tall coffee"
+        },
+        "cena": "$7.28",
+        "tekst": "with English watercress & hazelnuts"
+
+    },
+    {
+        "id": 5,
+        "slika": {
+            "src": "assets/images/romano.jpg",
+            "alt": "Coffee romano"
+        },
+        "naziv": {
+            "id": 5,
+            "ime": "Coffee romano"
+        },
+        "cena": "$5.45",
+        "tekst": "with apple sauce a side"
+
+    },
+    {
+        "id": 6,
+        "slika": {
+            "src": "assets/images/ristretto.jpg",
+            "alt": "Ristretto"
+        },
+        "naziv": {
+            "id": 6,
+            "ime": "Ristretto"
+        },
+        "cena": "$5.45",
+        "tekst": "with Winter black truffles from Piedmont"
+
+    }
+]

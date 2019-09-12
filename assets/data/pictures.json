@@ -1,0 +1,17 @@
+[{
+        "src": "assets/images/coffeemaker.jpg",
+        "alt": "Coffee maker"
+    },
+    {
+        "src": "assets/images/drawing.jpg",
+        "alt": "Drawing"
+    },
+    {
+        "src": "assets/images/turkish.jpg",
+        "alt": "Turkish coffee"
+    },
+    {
+        "src": "assets/images/pouring.jpg",
+        "alt": "Pournig coffee"
+    }
+]

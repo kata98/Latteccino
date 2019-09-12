@@ -1,0 +1,21 @@
+[{
+        "id": 1,
+        "ahref": "index.html",
+        "ime": "HOME"
+    },
+    {
+        "id": 2,
+        "ahref": "#1",
+        "ime": "MENU"
+    },
+    {
+        "id": 3,
+        "ahref": "#2",
+        "ime": "REGISTER"
+    },
+    {
+        "id": 4,
+        "ahref": "#3",
+        "ime": "CONTACT"
+    }
+]

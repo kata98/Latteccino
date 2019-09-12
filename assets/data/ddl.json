@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "ime": "Cappuccino"
+    },
+    {
+        "id": 2,
+        "ime": "Frappuccino"
+    },
+    {
+        "id": 3,
+        "ime": "Caramellatto"
+    },
+    {
+        "id": 4,
+        "ime": "Tall Coffee"
+    },
+    {
+        "id": 5,
+        "ime": "Coffee Romano"
+    },
+    {
+        "id": 6,
+        "ime": "Ristretto"
+    }
+]

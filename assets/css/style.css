@@ -1,0 +1,727 @@
+@font-face {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#sort1 {
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 1px solid #423930;
+    padding: 7px 20px;
+}
+
+#sort1:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    box-shadow: none;
+}
+
+#sakriveno {
+    display: none;
+}
+
+#dugmence {
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 1px solid #423930;
+    box-shadow: 2px 3px #423930;
+    padding: 7px 20px;
+}
+
+#dugmence:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    box-shadow: none;
+}
+
+#fafa1 {
+    float: right;
+}
+
+#fafa1 .fa {
+    color: black;
+}
+
+#desno p a {
+    text-decoration: none;
+    color: white;
+}
+
+#desno a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+    transition: 0.3s;
+}
+
+#sort {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#porudzbina {
+    width: 100%
+}
+
+.ddlporudzbina {
+    margin-bottom: 5px;
+    width: 30%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.cleaner {
+    clear: both;
+}
+
+#slajder {
+    width: 100%;
+    margin: 0px auto;
+    min-height: 500px;
+    background-image: url('../images/macaroon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo1 {
+    padding-top: 40px;
+}
+
+#centar {
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#adresa p {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    font-size: 25px;
+}
+
+.lista1 {
+    padding-top: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista1 a {
+    letter-spacing: 2.5px;
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.list a {
+    letter-spacing: 2.5px;
+    color: black;
+    text-decoration: none;
+}
+
+.lista {
+    padding-top: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista a {
+    letter-spacing: 2.5px;
+    color: white;
+    text-decoration: none;
+}
+
+#meni ul li a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+    transition: 0.3s;
+}
+
+#meni .active {
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+}
+
+#drugi {
+    width: 1350px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.text {
+    float: left;
+    font-family: 'Cormorant Garamond', serif;
+    max-width: 450px;
+    padding-left: 40px;
+}
+
+.text h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: #423930;
+    padding-bottom: 20px;
+}
+
+.text h2 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.text p {
+    word-wrap: break-word;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 35px;
+    color: #888888;
+    padding-bottom: 30px;
+}
+
+.slika {
+    float: right;
+}
+
+#pictures {
+    padding-top: 30px;
+    padding-bottom: 7px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1350px;
+    flex-wrap: wrap;
+}
+
+#pictures .prva {
+    width: 23%;
+}
+
+#pictures .prva img {
+    width: 100%;
+}
+
+#pictures .prva img {
+    max-width: 100%;
+    -moz-transition: 1s;
+    -webkit-transition: 0.3s;
+    -o-transform: 0.3s;
+    transition: 1s;
+}
+
+#pictures .prva img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#menu h2 {
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#menu {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#baner {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#baner1 {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.artikl {
+    padding-bottom: 50px;
+}
+
+.artikl p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.artikl h3 {
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 20px;
+}
+
+.artikl img {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+}
+
+#slider {
+    width: 100%;
+    margin: 0px auto;
+    background-image: url('../images/coffee.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#centar1 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#centar1 h2 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+
+#centar1 p {
+    color: white;
+    font-size: 25px;
+}
+
+#pictures1 {
+    padding-top: 10px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1350px;
+    flex-wrap: wrap;
+}
+
+#pictures1 .prva img {
+    width: 100%;
+}
+
+#pictures1 .prva img {
+    max-width: 100%;
+    -moz-transition: 1s;
+    -webkit-transition: 0.3s;
+    -o-transform: 0.3s;
+    transition: 1s;
+}
+
+#pictures1 .prva img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#booking h2 {
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+#booking {
+    width: 60%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px auto;
+    text-align: center;
+    /* padding-top: 80px; */
+    padding-bottom: 200px;
+}
+
+#booking1 {
+    width: 50%;
+    float: left;
+}
+
+#booking2 {
+    width: 50%;
+    float: right;
+}
+
+.ime {
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+}
+
+.prezime {
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+}
+
+.mejl1 {
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+}
+
+.lozinka {
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+}
+
+.prijava1 {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+    border: 2px solid black;
+    width: 95%;
+}
+
+.prijava1:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+.ddl {
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+    margin-bottom: 50px;
+}
+
+.dugme,
+.btnBrisi {
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 1px solid #423930;
+    box-shadow: 2px 3px #423930;
+    padding: 7px 20px;
+    margin-top: 10px;
+}
+
+.dugme:hover,
+.btnBrisi:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    box-shadow: none;
+}
+
+.dugme4 {
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 1px solid #423930;
+    box-shadow: 2px 3px #423930;
+    padding: 7px 20px;
+    margin-top: 10px;
+}
+
+.dugme4:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    box-shadow: none;
+}
+
+#futer h2 {
+    font-weight: 400;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+#futer p {
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+#futer a {
+    text-decoration: none;
+    color: white;
+}
+
+*/ #futer .fa {
+    padding: 7px;
+}
+
+.fa {
+    display: flex;
+    padding: 7px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+#futer {
+    width: 100%;
+    background-color: black;
+    min-height: 210px;
+    padding-top: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+#info {
+    width: 60%;
+    float: left;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+#levo {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#desno {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#levo h3 {
+    color: white;
+}
+
+#desno h3 {
+    color: white;
+}
+
+#levo p {
+    color: white;
+    padding-top: 40px;
+}
+
+#desno p {
+    color: white;
+    padding-top: 40px;
+}
+
+#forma {
+    padding-top: 25px;
+    width: 40%;
+    float: right;
+}
+
+#forma .prijava {
+    width: 60%;
+}
+
+#forma h3 {
+    color: white;
+}
+
+.prijava {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+    border: 2px solid white;
+}
+
+.prijava:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.mejl {
+    margin-bottom: 5px;
+    width: 60%;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    padding: 7px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    #drugi .slika img {
+        display: none;
+    }
+    #pictures .prva img:hover {
+        display: none;
+    }
+    #pictures1 .prva img:hover {
+        display: none;
+    }
+    #slider #centar1 h2 {
+        display: none;
+    }
+    #slider #centar1 p {
+        display: none;
+    }
+    #slajder #centar #logo #logo1 img {
+        width: 50%;
+    }
+    #slajder #centar #logo #adresa p {
+        font-size: 17px;
+    }
+    #drugi .text {
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+        margin-left: 70px;
+    }
+    #drugi .text h1 {
+        font-size: 37px;
+    }
+    #drugi .text p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #drugi .slika img {
+        display: none;
+    }
+    #drugi .text {
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+        margin-left: 70px;
+    }
+    #slajder #centar #logo #logo1 img {
+        width: 40%;
+    }
+    #slajder #centar #logo #adresa p {
+        font-size: 20px;
+    }
+    #drugi .slika img {
+        display: none;
+    }
+    #pictures .prva img:hover {
+        display: none;
+    }
+    #pictures1 .prva img:hover {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    #centar {
+        width: 100%;
+    }
+    #drugi {
+        width: 100%;
+    }
+    #drugi .text {
+        width: 55%;
+    }
+    .text p {
+        font-size: 26px;
+    }
+    .text h1 {
+        font-size: 47px;
+    }
+    #drugi .slika {
+        width: 45%;
+    }
+    #drugi .slika img {
+        width: 100%;
+    }
+    #pictures {
+        width: 100%;
+    }
+    #pictures .prva {
+        width: 45%;
+    }
+    #centar1 {
+        width: 100%;
+    }
+    #pictures1 {
+        width: 100%;
+    }
+    #pictures1 .prva {
+        width: 45%;
+    }
+    #booking {
+        width: 100%;
+    }
+}
